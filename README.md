@@ -5,6 +5,7 @@ Get the requirements
 ```
 pip install -r requirements.txt
 ```
+Assemble away!
 ```
 python assembly.py fasta.txt
 ```
