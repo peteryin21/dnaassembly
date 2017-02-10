@@ -1,5 +1,14 @@
 # Python De Novo DNA Assembly
 
+## Usage
+Get the requirements
+```
+pip install -r requirements.txt
+```
+```
+python assembly.py fasta.txt
+```
+
 This DNA sequence assembler works under the assumption that there are no read errors, and that there is overlap for each of the sequences in the file. 
 
 I took an iterative approach. First, I take one sequence and find the sequence in the list that has the best overlap score. Merge the sequences and repeat with the remainder of the list until all sequences have been combined.
