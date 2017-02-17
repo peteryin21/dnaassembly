@@ -23,5 +23,5 @@ If n is the average length of sequence, and m is the number of sequences, this h
 
 TODO:
 
-- Improve efficiency 
-- Handle sequences with no overlap and imperfect overlap
+- Improve efficiency, using graph-based implementation
+- Handle sequences with no overlap and imperfect overlap (i.e read errors)
